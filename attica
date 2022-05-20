@@ -1,0 +1,43 @@
+pwd
+nano hello.txt
+// write this in hello.txt:
+"Hello, I am nano" 
+// save and exit the file
+nano ~/.bash_profile
+// in bash write
+echo "Hello"
+// save and exit the file
+source ~/.bash_profile
+// Hello is displayed
+nano ~/.bash_profile
+// add the following:
+alias p="pwd"
+alias ll="ls -la"
+// save and exit the file
+clear
+source ~/.bash_profile
+p
+//displays the pwd command results
+ll
+//displays the ls -la command results
+nano ~/.bash_profile
+// add the following:
+export USER="Gillian Trethewey"
+// save and exit the file
+clear
+source ~/.bash_profile
+echo $USER
+// displays Gillian Trethewey
+nano ~/.bash_profile
+// enter the following:
+export PS1=">>"
+// save and exit the file
+clear
+source ~/.bash_profile
+p
+// displays the pwd equivalent
+ll
+// displays the ls -la equivalent
+echo $HOME
+echo $PATH
+env
